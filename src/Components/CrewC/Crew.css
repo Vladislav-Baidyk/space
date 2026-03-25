@@ -1,0 +1,78 @@
+.container-crew{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-crew-content{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 3rem 0rem;
+    gap: 10rem;
+}
+.left-crew-part{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: start;
+    align-items: start;
+    color: white;
+    position: relative;
+}
+.left-crew-content{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.left-crew-header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.left-crew-header span{
+    opacity: 0.7;
+}
+.crew-name{
+    font-size: 2.8rem;
+}
+.crew-text{
+    opacity: 0.8;
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+}
+.crew-buttons{
+    margin-top: 4rem;
+    display: flex;
+    gap: 1rem;
+}
+.crew-button{
+    width: 0.9rem;
+    height: 0.9rem;
+    background: white;
+    opacity: 0.6;
+    border-radius: 20rem;
+}
+.crew-button.active{
+    opacity: 1;
+}
+@media screen and (max-width:480px) {
+    .container-crew-content{
+        flex-direction: column;
+    }
+    .crew-image{
+        width: 90%;
+    }
+}
+@media screen and (min-width:481px) and (max-width:880px) {
+    .container-crew-content{
+        flex-direction: column;
+    }
+}
