@@ -30,7 +30,7 @@ Check out the live demo here: 🔗 https://vladislav-baidyk.github.io/Space/
 Clone the repository:
 
 Bash
-git clone https://github.com/yourusername/space-tourism-website.git
+git clone https://github.com/Vladislav-Baidyk/space.git
 Install dependencies:
 
 Bash
