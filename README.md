@@ -24,7 +24,7 @@ JSON – Centralized data management for all assets and text content.
 TypeScript – Ensuring type safety across the application.
 
 📦 Live Demo
-Check out the live demo here: 🔗 https://vladislav-baidyk.github.io/Space/
+Check out the live demo here: 🔗 https://vladislav-baidyk.github.io/space/
 
 📁 How to Run Locally
 Clone the repository:
