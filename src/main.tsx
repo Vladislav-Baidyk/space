@@ -46,7 +46,7 @@ const roots = createBrowserRouter([
       }
     ]
   }
-]);
+], {basename : "/Space"});
 createRoot(document.getElementById('root')!).render(
   <RouterProvider router={roots} />
 )
